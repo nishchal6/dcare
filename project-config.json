@@ -1,0 +1,20 @@
+echo '{
+  "name": "my-java-web-app",
+  "version": "1.0.0",
+  "description": "A web application using Java, HTML, CSS, and JavaScript.",
+  "main": "app.jar",
+  "scripts": {
+    "start": "java -jar app.jar"
+  },
+  "dependencies": {
+    "java": "17",
+    "spring-boot": "2.5.0"
+  },
+  "resources": {
+    "html": "src/main/resources/templates/",
+    "css": "src/main/resources/static/css/",
+    "js": "src/main/resources/static/js/"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}' 
